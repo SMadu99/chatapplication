@@ -51,6 +51,20 @@
     border: none;
     cursor: pointer;
   }
+  label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(40, 43, 42);
+    font-size: 12px;
+    cursor: pointer;
+
+    img{
+      width: 60px;
+    }
+  }
+
+
   p{
     color: #85868b;
     margin-top: 10px;
@@ -58,4 +72,12 @@
   }
 
 
+}
+
+.home{
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
